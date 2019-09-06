@@ -24,8 +24,8 @@ object ScalaRecap extends App {
   abstract class MyList[+A]
 
   // method notations
-  1+2
-  1.+(2)
+  //1+2
+  //1.+(2)
 
   //FP
   val anIncrementer: Int => Int = (x: Int) => x+1
